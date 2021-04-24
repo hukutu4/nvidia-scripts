@@ -4,10 +4,7 @@ pushd `dirname ${0}`
 
 source ./nvidia-env.sh
 
-echo "GTX1080"
-set_nvidia_clock 1080 1 250 0 0
-
-echo "RTX2080"
-set_nvidia_clock 2080 1 250 0 0
+echo "RTX3080"
+set_nvidia_clock 3080 1 270 0 0 50
 
 popd
